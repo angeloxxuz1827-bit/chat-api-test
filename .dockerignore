@@ -1,0 +1,14 @@
+.git
+.github
+.venv
+.env
+.env.*
+__pycache__
+*.py[cod]
+.pytest_cache
+.coverage
+htmlcov
+.archify
+tests
+test_api.py
+test_bedrock.py

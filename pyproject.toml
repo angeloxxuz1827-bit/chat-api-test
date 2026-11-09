@@ -1,0 +1,16 @@
+[project]
+name = "test-fastapi-angel"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "boto3>=1.43.125",
+    "fastapi[standard,stantard]>=0.162.0",
+    "pydantic-settings>=2.16.2",
+]
+
+[dependency-groups]
+dev = [
+    "requests>=2.34.2",
+]
